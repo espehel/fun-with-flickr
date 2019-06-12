@@ -1,0 +1,12 @@
+{
+  "extends": ["plugin:@typescript-eslint/recommended", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": ["error"],
+    "no-underscore-dangle": "off",
+    "indent": "off",
+    "@typescript-eslint/indent": ["error", 2],
+    "@typescript-eslint/camelcase": ["error", { "properties": "never" }]
+  },
+  "parser": "@typescript-eslint/parser"
+}

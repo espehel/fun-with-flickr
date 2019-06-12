@@ -1,0 +1,48 @@
+{
+  "name": "fun-with-flickr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html --log-level 4",
+    "build": "npm run clean && parcel build src/index.html",
+    "clean": "rimraf dist",
+    "lint": "eslint src/**/*",
+    "lint:fix": "eslint src/**/* --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.1.0",
+    "@material-ui/icons": "^4.1.0",
+    "@types/node": "^11.13.11",
+    "@types/react": "^16.8.18",
+    "@types/react-dom": "^16.8.4",
+    "@types/webfontloader": "^1.6.29",
+    "@typescript-eslint/eslint-plugin": "^1.9.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "install": "^0.12.2",
+    "npm": "^6.9.0",
+    "parcel-bundler": "^1.12.3",
+    "prettier": "^1.17.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-google-login": "^5.0.4",
+    "react-hot-loader": "^4.8.8",
+    "rimraf": "^2.6.3",
+    "sass": "^1.20.1",
+    "typescript": "^3.4.5",
+    "webfontloader": "^1.6.28"
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^1.9.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.13.0"
+  }
+}
