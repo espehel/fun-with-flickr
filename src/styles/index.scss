@@ -1,0 +1,51 @@
+// COMMON
+.left-icon {
+  margin-right: 0.5em;
+}
+
+.align-right {
+  margin-left: auto !important;
+}
+
+// APP
+
+header {
+  text-align: center;
+}
+
+.app-content {
+  align-content: center;
+  margin: 0 2em;
+}
+
+.circular-progress {
+  text-align: center;
+  padding: 5em;
+}
+
+// Photos
+.photos-grid {
+  padding: 1em;
+  display: grid;
+  grid-row-gap: 1em;
+  grid-column-gap: 1em;
+  grid-template-columns: repeat(auto-fill, minmax(30em, 1fr));
+}
+
+.photo-card {
+  max-width: 30em;
+
+  .media {
+    height: 0;
+    padding-top: 50%;
+  }
+
+  .avatar {
+    background-color: red;
+  }
+
+  .details {
+    display: flex;
+    justify-content: space-between;
+  }
+}
